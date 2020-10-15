@@ -12,7 +12,6 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  background-color: green;
 }
 .box{
   width: 450px;
@@ -47,6 +46,9 @@ th, td {
     background-color: steelblue;
     color: white;
     font-size: 20px;
+    transition: all .3s ease;
+    cursor: pointer;
+    outline: none;
   }
   .button:hover{
     background-color: rgb(26, 110, 179);
